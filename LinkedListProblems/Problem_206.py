@@ -20,3 +20,24 @@ used_head = ll.head
 solution = Solution()
 reversed_head = solution.reverseList(used_head)
 print(reversed_head.value)
+
+# Iterative method:
+class Solution:
+    def reverseList(self, head):
+        # l_list = head
+        current_node = head
+        previous_node = None
+        next_node = None
+        while current_node:
+            next_node = current_node.next
+            current_node.next = previous_node
+            previous_node = current_node
+            current_node = next_node
+            # l_list.head = previous_node
+        return previous_node
+    
+ll =  Linkedlist(1,2,3,4,5)
+used_head = ll.head
+solution = Solution()
+reversed_head = solution.reverseList(used_head)
+print(reversed_head.value)
