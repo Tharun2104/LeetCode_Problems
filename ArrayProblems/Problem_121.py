@@ -12,7 +12,7 @@ class Solution:
         max_profit = 0
         min_price = float('inf')
     
-        for price in prices:  #O(N)
+        for price in prices:  # TC : O(N)
     
             if price < min_price:  # finding minimum value 
                 min_price = price
