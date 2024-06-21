@@ -4,7 +4,7 @@ class LinkedNode:
         self.next = None
 
     def __repr__(self):
-        self.value = value
+        self.value = value # type: ignore
 
 class Linkedlist:
     def __init__(self,*values):
