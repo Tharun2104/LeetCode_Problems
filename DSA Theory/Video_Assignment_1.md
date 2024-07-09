@@ -219,10 +219,10 @@ For the find_duplicates problem, you must answer the following questions:
    ## Presentation slides
 
    ### Slide 1 <br>
-   <img src="Pic_1.png" alt="Sample Image" width="800"/>
+   <img src="Pic_1.PNG" alt="Sample Image" width="800"/>
 
    ### Slide 2 <br>
-   <img src="Pic_2.png" alt="Sample Image" width="800"/>
+   <img src="Pic_2.PNG" alt="Sample Image" width="800"/>
 
 
 
