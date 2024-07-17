@@ -93,13 +93,13 @@ The Linter class uses a stack to check for matching opening and closing braces i
 ### Scenarios and explanations:
 
 ### Slide 1 <br>
-<img src="Slide1.PNG" alt="Sample Image" width="800"/>
+<img src="Images/Slide1.PNG" alt="Sample Image" width="800"/>
 
 ### Slide 2 <br>
-<img src="Slide2.PNG" alt="Sample Image" width="800"/>
+<img src="Images/Slide2.PNG" alt="Sample Image" width="800"/>
 
 ### Slide 3 <br>
-<img src="Slide3.PNG" alt="Sample Image" width="800"/>
+<img src="Images/Slide3.PNG" alt="Sample Image" width="800"/>
 
 
    
