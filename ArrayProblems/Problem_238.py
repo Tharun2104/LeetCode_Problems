@@ -23,3 +23,45 @@ class Solution:
 
 test = Solution()
 test.productExceptSelf(nums)
+
+
+
+# Method 2 (revison)
+
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        preIn = 0
+        preList = []
+        for i in range(len(nums)):
+            if (i ==0):
+                preList.append(1)
+                preIn = nums[i]
+            else:
+                preList.append(preIn)
+                preIn = preIn * nums[i]
+
+        preIn = 1
+        for i in range(len(nums)-1,-1,-1):
+            preList[i] = preList[i]*preIn
+            preIn = preIn*nums[i]
+        
+        return preList
+
+
+
+
+
+# nums = 4 5 8 1
+
+# res = 48 32 20 160
+
+# [1]
+
+# [1]
+
+# [1,2]
+
+# [2,1]
+
+# O(N)
+
