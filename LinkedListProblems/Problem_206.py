@@ -11,7 +11,7 @@ class Solution:
         if (head is None or head.next is None):
             return head
         newHead = self.reverseList(head.next)
-        front = head.next
+        front = head.next  ## head.next.next = head and also dont use newHead to reverse (cannot return the newHead atlast)
         front.next = head
         head.next = None
         return newHead
