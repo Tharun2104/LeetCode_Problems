@@ -1,28 +1,29 @@
 #  232. Implement Queue using Stacks
 
+# to pop or peek- pop all the elements from s1 amd push to s2 and then pop or peek s2
 class MyQueue:
 
     def __init__(self):
-        self.data = [] #Stack
+        self.s1 = [] #Stack
+        self.s2 = []
 
     def push(self, x: int) -> None:
-        self.data.append(x)
+        self.s1.append(x)
 
     def pop(self) -> int:
-        self.data = self.data[::-1]
-        removed = self.data.pop()
-        self.data = self.data[::-1]
-        return removed
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop())
+        return self.s2.pop()
 
     def peek(self) -> int:
-        return self.data[0]
+        if not self.s2:
+            while self.s1:
+                self.s2.append(self.s1.pop())
+        return self.s2[-1]
 
     def empty(self) -> bool:
-        print(self.data)
-        if self.data:
-            return False
-        else:
-            return True
+        return max(len(self.s1), len(self.s2)) == 0
 
 
 # Your MyQueue object will be instantiated and called as such:
