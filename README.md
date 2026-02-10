@@ -24,3 +24,27 @@ The problems are categorized by their topics such as arrays, linked lists, dynam
 
 - **Arrays**: Problems related to array manipulation and operations.
 - **Linked Lists**: Problems involving single and doubly linked lists.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+## Hash Table
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+## Divide and Conquer
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+## Segment Tree
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+<!---LeetCode Topics End-->
