@@ -30,6 +30,7 @@ The problems are categorized by their topics such as arrays, linked lists, dynam
 ## Array
 |  |
 | ------- |
+| [0518-coin-change-ii](https://github.com/Tharun2104/LeetCode_Problems/tree/master/0518-coin-change-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
 ## Hash Table
 |  |
@@ -47,4 +48,8 @@ The problems are categorized by their topics such as arrays, linked lists, dynam
 |  |
 | ------- |
 | [3719-longest-balanced-subarray-i](https://github.com/Tharun2104/LeetCode_Problems/tree/master/3719-longest-balanced-subarray-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0518-coin-change-ii](https://github.com/Tharun2104/LeetCode_Problems/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
